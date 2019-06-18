@@ -41,6 +41,7 @@ function js(){
 
     return gulp.src([
         'node_modules/jquery/dist/jquery.js',
+        'node_modules/parsleyjs/dist/parsley.js',
         src + '/js/**/*'
     ])
     .pipe(newer(out))

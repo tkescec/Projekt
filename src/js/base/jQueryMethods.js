@@ -13,3 +13,18 @@
     }
 
 }) (jQuery);
+
+let getLoader = function(){
+    let html = '';
+        html += '<div class="loader">';
+        html += '<img src="/assets/images/loader.svg">';
+        html += '</div>';
+
+    return html;
+}
+
+let setAjaxMessage = function(message){
+    let html = '<div class="message">'+ message +'</div>';
+
+    return html;
+}
